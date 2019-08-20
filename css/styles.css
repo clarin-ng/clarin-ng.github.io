@@ -449,11 +449,11 @@ a{
   grid-area:
   "showcase-picture showcase-text"
 }
-.case-study-1{
+.case-study{
   grid-area:"showcase-picture";
   text-align:center;
 }
-.case-study-1 img{
+.case-study img{
   width:80%;
 }
 .showcase-text h2{
