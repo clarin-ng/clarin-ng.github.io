@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta property="og:image" content="images/websitepicture.png"/>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" type="image/png" href="cn-favicon.png"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Philosopher&display=swap" rel="stylesheet">
+    <title> Clarin Ng | UX Designer</title>
+  </head>
+
+  <body>
+    <main>
+      <nav class="nav-container">
+      <div class="nav">
+        <a class="logo" href="index.html"> <img src="images/cnlogo.svg" alt="Logo"></a>
+
+        <ul class="menu">
+            <li> <a href="/index.html#projects"> Projects </a> </li>
+            <li> <a href="about.html"> About </a></li>
+            <li> <a href="contact.html">Contact</a></li>
+        </ul>
+
+            <img class="iphone-icon" src="images/homepage/menu.svg" alt="iphone menu">
+            <img class="iphone-close" src="images/icon/x.svg" alt="close menu">
+          <div class="iphone-dropdown" style="display:none">
+
+            <div> <a href="/index.html#projects">Projects</a> </div>
+            <div> <a href="about.html">About</a> </div>
+            <div> <a href="contact.html">Contact</a></div>
+        </div>
+      </nav>
+      <!--hero section-->
+    <div class="hero-container">
+      <div class="hero-image">
+          <section class="hero-text">
+            <h1><span class="regular darkgrey"> Hello! I'm </span><span class="darkpink">Clarin</span>,</h1>
+            <h2><span class="oceanblue">UX Designer</span> <span class="regular">based in</span> <span class="oceanblue">San Francisco Bay Area</span></h2>
+            <h3>  With a background of sensory and consumer research, I strive to give a positive impact on society with a deep passion for solving problems through empathy, research, and design.</h3>
+          </section>
+          <div class="main-img">
+          </div>
+      </div>
+
+      <div id="scroll" class="scroll">
+        <a href="#projects"><span></span>Scroll</a>
+      </div>
+      <!-- portfolio section -->
+      <span id="projects" class="anchor"></span>
+      <div class="work-section" >
+        <h1> Featured Project</h1>
+
+        <section class="portfolio-container">
+          <div class="case-study-1">
+            <img class="showcase-picture" src="images/encrypt/hero-images.png" alt="encrypt case study">
+          </div>
+          <div class="showcase-text">
+              <h2>Encrypt</h2>
+              <div class="encrypt-tagline"> Secured Your Organized Content</div>
+              <p class="case-study-paragraph">Encrypt is a SaaS cloud storage product focusing on secure content management and organization. </p>
+              <button class="encrypt-btn" type="button" name="encrypt-button" onclick='window.location.href="encrypt.html";'> View Case Study </button>
+          </div>
+        </section>
+      </div>
+    </div>
+      <!--footer-->
+      <footer>
+        <div class=footer-div>
+          <h3>Like my work?  Let's connect !</h3>
+          <div class="social-media-icons">
+            <a href="contact.html"target="_blank"> <img src="images/icon/gmail-icon.svg" alt="gmail"></a>
+            <a href="https://www.linkedin.com/in/clarin-ng/"target="_blank"><img src="images/icon/linkedin-icon.svg" alt="linkedin"></a>
+            <a href="https://github.com/clarin-ng"target="_blank"><img src="images/icon/github-icon.svg" alt="github"> </a>
+          </div>
+        <hr class="footer-line">
+        <p> Designed & Developed by Clarin Ng | Copyright 2019 </p>
+        </div>
+      </footer>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143954229-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-143954229-1');
+    </script>
+  </body>
+</html>
