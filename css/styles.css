@@ -14,6 +14,7 @@
   --blue-gradient:linear-gradient(154.95deg, #326280 35.7%, #212E53 84.3%);
   --shadow:0px 4px 10px rgba(78, 78, 78, 0.2);
   --btn-shadow: 3px 6px 15px rgba(78, 78, 78, 0.25);
+  --potion-pink: #A35C68;
 }
 *, ::after, ::before{
   box-sizing:border-box;
@@ -41,14 +42,15 @@ html{
 .darkpink{
   color:var(--darkpink);
 }
+.potion-pink{
+  color:var(--potion-pink);
+}
 
 .regular{
   font-weight: normal;
 }
 
-.button, button{
-  background-color: var(--darkpink);
-  color: var(--white);
+button{
   padding: 1.6rem 1.6rem;
   text-transform: uppercase;
   border-radius:5px;
@@ -63,12 +65,29 @@ html{
 button:hover{
   background-color:#C25758;
 }
-
+.main-button{
+  color:var(--darkpink);
+  border: 2px solid var(--darkpink);
+}
+.main-button:hover{
+  background-color:var(--darkpink);
+  color:var(--white);
+}
+.potion-btn{
+  color:var(--potion-pink);
+  border: 2px solid var(--potion-pink);
+}
+.potion-btn:hover{
+  background-color:var(--potion-pink);
+  color:var(--white);
+}
 .encrypt-btn{
-  background-color:var(--encrypt-orange);
+  color:var(--encrypt-orange);
+  border: 2px solid var(--encrypt-orange);
 }
 .encrypt-btn:hover{
-  background-color:#BB4015;
+  background-color:var(--encrypt-orange);
+  color:var(--white);
 }
 a{
   text-decoration: none;
@@ -352,15 +371,15 @@ a{
 
 .hero-text h2{
   font-family:"PT Sans", sans-serif;
-  color:var(--darkgrey);
+  color:var(--oceanblue);
   font-weight: bold;
   max-width:100%;
-  margin:1.6rem 0;
+  margin:0.8rem 0;
 }
 .hero-text h3{
   width:90%;
   color:var(--darkgrey);
-  padding:1.6rem 0;
+  padding:3.2rem 0;
   line-height: 140%;
 }
 @media only screen and (max-width:850px){
@@ -449,18 +468,19 @@ a{
   grid-area:
   "showcase-picture showcase-text"
 }
+
 .case-study{
   grid-area:"showcase-picture";
   text-align:center;
 }
 .case-study img{
   width:80%;
+  margin:10%;
 }
 .showcase-text h2{
   font-family:"Philosopher";
   font-size:3.6rem;
   font-weight:bold;
-  color:var(--encrypt-orange);
 }
 
 .encrypt-tagline{
@@ -571,7 +591,7 @@ footer p{
   border-radius: 15px 50px;
 }
 .profile-picture button{
-  width:70%;
+  width:50%;
 }
 .about-me{
   grid-area: paragraph;
@@ -583,9 +603,6 @@ footer p{
 }
 .about-me p{
   margin-bottom:3.2rem;
-}
-#resume-btn{
-  justify-content: center;
 }
 
 #paragraph-btn, #close-btn{
