@@ -60,19 +60,19 @@
               <h2 class="potion-pink">Potion</h2>
               <div class="encrypt-tagline"> Find Your Perfect-fitting Cosmetics</div>
               <p class="case-study-paragraph">Potion is a mobile app that helps users make informed purchase decisions on cosmetic products. </p>
-              <button class="potion-btn" type="button" name="encrypt-button"> Coming Soon </button>
+              <button class="potion-btn" type="button" name="encrypt-button" onclick='window.location.href="potion.html";'> View Case Study </button>
           </div>
         </section>
 
-        <section class="portfolio-container">
+        <section class="portfolio-container" style="flex-direction:row-reverse;">
+          <div class="case-study">
+            <img class="showcase-picture" src="images/encrypt/hero-image.png" alt="encrypt case study">
+          </div>
           <div class="showcase-text">
               <h2 class="encrypt-orange">Encrypt</h2>
               <div class="encrypt-tagline"> Secured Your Organized Content</div>
               <p class="case-study-paragraph">Encrypt is a SaaS cloud storage product focusing on secure content management and organization. </p>
               <button class="encrypt-btn" type="blue-button" name="encrypt-button" onclick='window.location.href="encrypt.html";'> View Case Study </button>
-          </div>
-          <div class="case-study">
-            <img class="showcase-picture" src="images/encrypt/hero-image.png" alt="encrypt case study">
           </div>
         </section>
       </div>
@@ -93,6 +93,7 @@
 
     </main>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143954229-1"></script>
@@ -100,8 +101,8 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-143954229-1');
     </script>
+    -->
   </body>
 </html>
