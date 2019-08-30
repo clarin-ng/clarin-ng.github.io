@@ -516,13 +516,18 @@ a{
 @media only screen and (max-width:1200px){
   .portfolio-container{
     display:block;
+    margin-bottom:4rem;
   }
   .showcase-text{
+    width:100%;
     margin:0 6.66%;
     padding:0px;
   }
   .case-study-1{
     margin-bottom: 4rem;
+  }
+  .case-study{
+    width:100%;
   }
 }
 
@@ -638,7 +643,7 @@ footer p{
   font-family:"Philosopher", sans-serif;
   font-weight:bold;
   font-size: 2.8rem;
-  padding-bottom:1.6rem;
+  padding:1.6rem 0;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
@@ -1235,6 +1240,9 @@ height:78px;
     width:86.66%;
     margin:1.6rem auto;
   }
+  .mobile-design-container img{
+    margin:1.6rem 0;
+  }
 }
 /*typography color font */
 .visual-design-section{
@@ -1324,6 +1332,9 @@ height:78px;
     margin:4rem 6.67%;
     width:86.66%;
   }
+  .visual-container-title{
+    font-size:32px;
+  }
   .visual-container{
     width:100%;
   }
@@ -1344,13 +1355,6 @@ height:78px;
 }
 /*wireframes*/
 .wireframes-background{
-  background-image: url("../images/encrypt/wireframes-sketch.png");
-  background-position: center;
-  background-size: cover;
-  position:relative;
-  padding:4rem;
-}
-.wireframes-background{
   background-image: url("../images/potion/wireframes/sketch.jpg");
   background-position: center;
   background-size: cover;
@@ -1368,7 +1372,7 @@ height:78px;
 
 .wireframes-container{
   margin:4rem auto;
-  max-width:80%;
+  max-width:86.66%;
 }
 .potion-shadow{
   box-shadow:  var(--shadow);
@@ -1403,7 +1407,7 @@ height:78px;
 }
 .problem-container{
   background:var(--lightgrey);
-  padding-bottom:4rem;
+  padding-bottom:1.6rem;
 }
 .problem-margin{
   margin
@@ -1435,7 +1439,7 @@ height:78px;
   width:35%;
 }
 .iteration2-picture img{
-  margin:3.2 0;
+  margin:3.2rem 0;
   vertical-align: middle;
 }
 .iteration2-pic1, .iteration2-pic3{
@@ -1452,7 +1456,7 @@ height:78px;
   }
   .potion-iteration2-picture{
     width:86.66%;
-    margin:auto;
+    margin:3.2rem auto;
   }
 }
 /*Preferene Testing*/
