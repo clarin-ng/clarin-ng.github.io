@@ -519,7 +519,7 @@ a{
     margin-bottom:4rem;
   }
   .showcase-text{
-    width:100%;
+    width:86.66%;
     margin:0 6.66%;
     padding:0px;
   }
@@ -1355,11 +1355,14 @@ height:78px;
 }
 /*wireframes*/
 .wireframes-background{
-  background-image: url("../images/potion/wireframes/sketch.jpg");
+  background-image: url("../images/encrypt/wireframes-sketch.png");
   background-position: center;
   background-size: cover;
   position:relative;
   padding:4rem;
+}
+.potion-wireframes{
+  background-image: url("../images/potion/wireframes/sketch.jpg") !important;
 }
 .wireframes-paragraph{
   background: rgba(30, 26, 40, 0.75);
