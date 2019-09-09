@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta property="og:image" content="images/websitepicture.png"/>
+    <meta charset="utf-8"/>
+    <link rel="shortcut icon" type="image/png" href="cn-favicon.png"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Philosopher&display=swap" rel="stylesheet">
+    <title> Clarin Ng | UX Designer</title>
+    <title></title>
+  </head>
+  <body>
+    <nav class="nav-container">
+    <div class="nav">
+      <a class="logo" href="index.html"> <img src="images/cnlogo.svg" alt="Logo"></a>
+
+      <ul class="menu">
+          <li> <a href="/index.html#projects"> Projects </a> </li>
+          <li> <a href="about.html"> About </a></li>
+          <li> <a href="contact.html">Contact</a></li>
+      </ul>
+
+          <img class="iphone-icon" src="images/homepage/menu.svg" alt="iphone menu">
+          <img class="iphone-close" src="images/icon/x.svg" alt="close menu">
+        <div class="iphone-dropdown" style="display:none">
+
+          <div> <a href="/index.html#projects">Projects</a> </div>
+          <div> <a href="about.html">About</a> </div>
+          <div> <a href="contact.html">Contact</a></div>
+      </div>
+    </nav>
+    <div class="contactform-text">
+      <h1>CONTACT ME</h1>
+      <h3>Wondering how we can work together? </h3>
+      <h3>Send me a message</h3>
+    </div>
+
+    <!-- Contact form!-->
+  <div class="contact-form">
+    <form id="contact-form" action="mailto:webdesign@aboutguide.com" method="get">
+      <input type="text" name="name" class="form-control" placeholder="Your Name" required><br>
+      <input type="email" name="email" class="form-control" placeholder="Your Email Address" required><br>
+      <input type="text" name="subjuect" class="form-control" placeholder="Subject" required><br>
+      <textarea name="message" class="form-control" placeholder="Message" rows="8" cols="80" required></textarea><br>
+      <button type="submit" class="form-control main-button form-button" name="button" value="send">Send Message</button>
+    </form>
+  </div>
+
+    <footer class="contact-footer">
+      <div class=footer-div>
+        <h3>Like my work?  Let's connect !</h3>
+        <div class="social-media-icons">
+          <a href="contact.html"target="_blank"> <img src="images/icon/gmail-icon.svg" alt="gmail"></a>
+          <a href="https://www.linkedin.com/in/clarin-ng/"target="_blank"><img src="images/icon/linkedin-icon.svg" alt="linkedin"></a>
+          <a href="https://github.com/clarin-ng"target="_blank"><img src="images/icon/github-icon.svg" alt="github"> </a>
+        </div>
+      <hr class="footer-line">
+      <p> Designed & Developed by Clarin Ng | Copyright 2019 </p>
+      </div>
+    </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="script.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143954229-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-143954229-1');
+  </script>
+</body>

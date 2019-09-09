@@ -73,12 +73,12 @@ button:hover{
   background-color:#C25758;
 }
 .main-button{
-  color:var(--darkpink);
-  border: 2px solid var(--darkpink);
+  color:var(--darkpink)!important;
+  border: 2px solid var(--darkpink)!important;
 }
 .main-button:hover{
-  background-color:var(--darkpink);
-  color:var(--white);
+  background-color:var(--darkpink)!important;
+  color:var(--white)!important;
 }
 .potion-btn{
   color:var(--potion-pink);
@@ -400,16 +400,16 @@ a{
 
 /*scroll*/
 .scroll{
-  position:relative;
+  position:absolute;
+  left:46%;
+  top:93%;
   color:var(--oceanblue);
 
 }
 
 .scroll a {
-  position: absolute;
   width:100%;
   text-align: center;
-  bottom: 1.39%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
@@ -1625,7 +1625,7 @@ height:78px;
 .iframe-container {
   overflow: scroll;
   padding-top: 56.25%;
-  position: absolute;
+  position: relative;
   width:100%;
   height:100%;
   display:block;
@@ -1639,11 +1639,33 @@ height:78px;
    top: 0;
    width: 100%;
 }
-
+/*Contact Form*/
+form{
+  margin-top:4rem;
+  text-align: center;
+}
+.form-control{
+  width:600px;
+  background-color: transparent;
+  border:none;
+  outline:none;
+  border-bottom: 2px solid var(--oceanblue);
+  color:var(--darkblue);
+  font-size: 1.8em;
+  margin-bottom:1.6rem;
+  padding:1.6rem 0;
+  text-transform: uppercase;
+}
 .contactform-text{
   margin:10rem 0 4rem 0;
   text-align:center;
   color:var(--darkpink);
+}
+.form-button{
+  width:30%;
+}
+input{
+  height:45px;
 }
 .contactform-text h1{
   padding-bottom:2.4rem;
