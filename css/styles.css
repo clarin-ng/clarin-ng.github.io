@@ -20,7 +20,9 @@
 *, ::after, ::before{
   box-sizing:border-box;
 }
-
+body{
+  line-height: none;
+}
 html{
   font-size: 10px;
   color:var(--black);
@@ -236,6 +238,9 @@ a:visited{
 }
 a{
   color:inherit;
+}
+a img:hover{
+  opacity:0.6;
 }
 /**/
 .casestudy-wrapper{
@@ -1590,7 +1595,7 @@ height:78px;
 
 /*more-section*/
 .more-container{
-  margin:4rem auto;
+  margin-top:4rem;
 }
 .more-section{
   text-align: center;
@@ -1622,7 +1627,7 @@ height:78px;
     margin:1.6rem auto;
   }
 }
-.iframe-container {
+/*.iframe-container {
   overflow: scroll;
   padding-top: 56.25%;
   position: relative;
@@ -1638,32 +1643,14 @@ height:78px;
    position: absolute;
    top: 0;
    width: 100%;
-}
+}*/
 /*Contact Form*/
-form{
-  margin-top:4rem;
-  text-align: center;
-}
-.form-control{
-  width:600px;
-  background-color: transparent;
-  border:none;
-  outline:none;
-  border-bottom: 2px solid var(--oceanblue);
-  color:var(--darkblue);
-  font-size: 1.8em;
-  margin-bottom:1.6rem;
-  padding:1.6rem 0;
-  text-transform: uppercase;
-}
 .contactform-text{
   margin:10rem 0 4rem 0;
   text-align:center;
   color:var(--darkpink);
 }
-.form-button{
-  width:30%;
-}
+
 input{
   height:45px;
 }
@@ -1673,10 +1660,6 @@ input{
 .contactform-text h3{
   padding-bottom:1.6rem;
 }
-.freebirdFormviewerViewFormContentWrapper{
-  text-align:center;
-}
-
 .potion-white-colorpalette{
   background-color:#FCFCFC;
   color:var(--grey) !important;
