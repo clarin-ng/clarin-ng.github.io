@@ -91,6 +91,12 @@ button:hover{
   background-color:var(--potion-pink);
   color:var(--white);
 }
+.potion-btn-nav:hover{
+  color:var(--potion-pink)!important;
+  background-color:transparent;
+  transition: color .1s linear;
+  cursor: pointer;
+}
 .encrypt-btn{
   color:var(--encrypt-orange);
   border: 2px solid var(--encrypt-orange);
@@ -265,6 +271,9 @@ a img:hover{
 .casestudy-nav li{
   text-align: center;
   padding: 0 1.11%;
+}
+.casestudy-nav-potion:hover{
+  color:var(--potion-pink);
 }
 /*when scroll*/
 .nav-body {
@@ -763,6 +772,9 @@ footer p{
 .potion-darkpink-background{
   background-color: var(--potion-pink) !important;
 }
+.no-background{
+  background-color:transparent !important;
+}
 /*overview section*/
 
 .overview-section{
@@ -1214,6 +1226,12 @@ height:78px;
   width:auto;
   margin:0 auto;
 }
+/*User Journey map*/
+.user-journey-container{
+  width:69%;
+  margin:auto;
+  text-align: center;
+}
 
 /*visual design */
 .design-container{
@@ -1564,6 +1582,8 @@ height:78px;
 /*Final Prototype*/
 .final-prototype-container{
   text-align:center;
+  width:69%;
+  margin:auto;
 }
 .final-prototype-container h3{
   text-align:center;
