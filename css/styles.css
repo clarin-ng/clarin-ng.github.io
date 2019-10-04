@@ -13,6 +13,7 @@
   --encrypt-black:#222222;
   --potion-pink: #A35C68;
   --potion-maroon:#360A15;
+  --fsgsa-gold:#BE9200;
   --blue-gradient:linear-gradient(154.95deg, #326280 35.7%, #212E53 84.3%);
   --shadow:0px 4px 10px rgba(78, 78, 78, 0.2);
   --btn-shadow: 3px 6px 15px rgba(78, 78, 78, 0.25);
@@ -54,7 +55,9 @@ html{
 .potion-maroon{
   color:var(--potion-maroon) !important;
 }
-
+.fsgsa-gold{
+  color:var(--fsgsa-gold) !important;
+}
 .regular{
   font-weight: normal;
 }
@@ -104,6 +107,14 @@ button:hover{
 }
 .encrypt-btn:hover{
   background-color:var(--encrypt-orange);
+  color:var(--white);
+}
+.fsgsa-btn{
+  color:var(--fsgsa-gold);
+  border: 2px solid var(--fsgsa-gold);
+}
+.fsgsa-btn:hover{
+  background-color:var(--fsgsa-gold);
   color:var(--white);
 }
 a{
